@@ -1,0 +1,5 @@
+the text on the downloads page that reads: "Read the disclaimer below before downloading" goes behind the "What skitt game do you want to download" box@I can live with it@website updates will not come for a while sorry
+make the text input for the bug reports page support multiple lines while it all remains readable (currently you can only read a small portion of the text that you input if you input a large amount of text) it would be helpful if you could drag to resize the text box@recommendation@website updates will not come for a while sorry
+Make emoji's work for setting templates in water reactor 💧💧☢☢@recommendation@Hmmmmmmm, maybe 🤔
+Left clicking and dragging while still on the item slot then right clicking again, breaks item slot sprite placement Water Reactor testbuild 14@bad@Fixed in the new demo which will come out soonish
+Dragging items in inventory duplicates the display numbers Water Reactor testbuild 14@bad@Fixed in the new demo which will come out soonish

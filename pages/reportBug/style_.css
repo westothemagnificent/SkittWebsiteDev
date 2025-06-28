@@ -1,0 +1,109 @@
+.bugReport{
+  width:65%;
+  min-height: 50px;
+  
+  padding: 10px 10px 10px 10px;
+  
+  margin: 25px 0px;
+  
+  border-radius: 8px;
+  background-color: var(--SkittLightBlue);
+  width: auto;
+  outline-style: solid;
+}
+
+.warringText{
+  
+  width:65%;
+  min-height: 50px;
+  
+  padding: 10px 10px 10px 10px;
+  
+  margin: 25px 0px;
+  
+  border-radius: 8px;
+  background-color: var(--SkittLightBlue);
+  width: auto;
+  outline-style: solid;
+}
+
+.warringTextSpan {
+  font-size:16px;
+}
+
+
+.sortOrderWrapper{
+  width: fit-content;
+  
+  padding: 10px;
+  margin: 0px 0px 5px 0px;
+  
+  border-radius: 8px;
+  background-color: var(--SkittLightBlue);
+  outline-style: solid;
+}
+
+.sortByDorpDown{
+    background-color: var(--SkittLightBlue);
+    border-radius: 8px;
+    border: 3px;
+    border-color: var(--SkittOutlineForButtonColor); 
+    border-style: solid;
+}
+
+.sortByDorpDownLable{
+   margin: 5px 5px 5px 5px;
+}
+
+.reportBug{
+  width:75%;
+  height: 50px;
+  
+  padding: 10px 0px 10px 10px;
+  
+  border-radius: 8px;
+  background-color: var(--SkittLightBlue);
+  outline-style: solid;
+}
+
+
+.bugDropDown{
+    border: 3px;
+    border-color: var(--SkittOutlineForButtonColor); 
+    border-style: solid;
+    background-color: var(--SkittLightBlue);
+    border-radius: 8px;
+}
+
+.reportBugInput{
+  background-color: var(--SkittLightBlue);
+    border: 3px;
+  border-color: var(--SkittOutlineForButtonColor); 
+  border-style: solid;
+  border-radius: 8px;
+  width: 200px;
+}
+
+.reportBugButton{
+  background-color: var(--SkittLightBlue);
+  border: 3px;
+  border-color: var(--SkittOutlineForButtonColor); 
+  border-style: solid;
+  border-style: soild;
+  border-radius: 8px;
+}
+.refershButton{
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  
+  width: 20px;
+  height: 20px;
+  transform-origin: center center;
+}
+
+body{
+  overflow-x: hidden;
+}

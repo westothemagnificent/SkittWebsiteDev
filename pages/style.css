@@ -1,0 +1,144 @@
+:root{
+  --SkittBlue: #3498db;
+  --SkittLightBlue: #abdbff;
+  
+  --SkittHoverBlue: #1472de;
+  --SkittButtonWhite: #add8e6;  
+  --SkittOutlineForButtonColor: #6AA5E9;
+}
+
+/* .background {
+    padding: -10px;
+} */
+
+
+.logo{
+
+  width: 100px;
+  height: auto;
+  cursor: pointer;
+  align-self: flex-start;
+}
+
+
+
+/* downloads OS styles */
+
+.OSIcon {
+  width: 100px; /* Desired width */
+  height: auto; /* Maintain aspect ratio */
+  max-width: none; /* Ensure no max-width is applied */
+  max-height: none; /* Ensure no max-height is applied */
+  cursor: pointer;
+  margin: 25px 25px 25px 25px;
+  filter: drop-shadow(2px 4px 0px black);
+  user-select: none;
+}
+
+.windows, .linux, .mac{
+  background-color: gray;
+  border: 4px solid dimGray;
+  
+  margin: 10px 10px 10px 10px;
+  border-radius: 8px;
+}
+
+.windows img{
+  filter: invert(1) brightness(0.5) sepia(2) hue-rotate(170deg) saturate(400%) drop-shadow(2px 4px 0px black);
+}
+
+.versions > div{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+.topBar{
+  
+  width: 100%;
+  min-height: 120px;
+  border-radius: 8px;
+  background-color: gray;
+  padding: 10px 10px 10px 10px;
+    
+  display: flex;
+  flex-wrap: wrap;
+  
+  align-items: center;
+  gap:12px;
+  
+  box-sizing: border-box;
+  
+  border: 4px solid dimGray;
+  
+}
+
+span{
+  font-size: 20px;
+}
+
+h1{
+  font-family: monoSpace;
+  font-weight: 900;
+    font-size: 60px;
+}
+
+body{
+   background-color: #C0C0C0;
+}
+
+.content {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+
+
+.SMOOTH_ALL{
+
+  transition: transform 0.2s ease, background-color 0.5s ease; 
+  
+}
+
+
+.HOVER_ENLARGE:hover{
+  
+   transform: scale(1.08);
+  
+}
+
+.HOVER_ENLARGE_SMALL:hover{
+  
+   transform: scale(1.01);
+  
+}
+
+.CLICK_SHRINK_SMALL:active{
+  transform: scale(0.98);
+}
+
+.HOVER_ENLARGE_BIG:hover{
+  
+   transform: scale(1.10);
+  
+}
+
+.CLICK_SHRINK_BIG:active{
+  transform: scale(0.70);
+}
+
+
+
+
+
+
+.bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+}

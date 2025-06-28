@@ -1,0 +1,30 @@
+{
+  "name": "glitch-hello-node",
+  "version": "0.1.0",
+  "description": "COOL",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "fastify": "^4.28.1",
+    "handlebars": "^4.7.8",
+    "@fastify/formbody": "^7.4.0",
+    "@fastify/static": "^7.0.4",
+    "@fastify/view": "^9.1.0",
+    "btc-e": "^1.0.5",
+    "express": "^4.19.2",
+    "socket.io": "^2.5.1"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/glitch-hello-node"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch"
+  ]
+}

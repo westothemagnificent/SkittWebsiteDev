@@ -1,0 +1,72 @@
+.softwareDropDown{ 
+
+  display: inline-block;
+  padding: 30px 40px;
+  
+  font-size: 16px;
+  background-color: var(--SkittBlue);
+  color: var(--SkittButtonWhite);
+  cursor: pointer;
+  border-radius: 8px;
+  margin: 5px 5px 5px 5px;
+  
+  border: 3px;
+  border-color: var(--SkittOutlineForButtonColor); 
+  border-style: solid;
+}
+
+.gameDropDown{ 
+
+  display: inline-block;
+  
+  padding: 30px 40px;
+  
+  font-size: 16px;
+  background-color: var(--SkittBlue);
+  color: var(--SkittButtonWhite);
+  cursor: pointer;
+  
+  border-radius: 8px;
+  
+  margin: -0px -5px -5px -5px;
+  
+  border: 3px;
+  border-color: var(--SkittOutlineForButtonColor); 
+  border-style: solid;
+  
+  left: 100%;
+  transform: translateX(-100%);
+  
+  position: absolute;
+  z-index: 10;
+  
+}
+
+.sep{
+  left: 50%;
+  position: relative;
+  z-index: 10;
+}
+
+.disclamerWarn{
+  left: 50%;
+  
+  transform: translateX(-50%);
+  
+  position: absolute;
+  z-index: 10;
+}
+
+/* .bg{
+  top: 100%;
+  left: 50%;
+  
+  width: 50%;
+  height: 100vh;
+  
+  border: None;
+  
+  padding: 0px;
+  
+  position: absolute;
+} */
