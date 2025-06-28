@@ -1,62 +1,25 @@
-function get(query) {
-  return document.querySelector(query);
-}
+import * as Globals from './globals.js';
+import { ElementBlinker } from './ElementBlinker.js';
 
-const downloadsButton = get(".downloadButton");
-const reportBugButton = get(".reportBugButton");
-const newsButton      = get(".newsButton");
-const helpButton      = get(".helpButton");
-const logo            = get(".logo");
+const downloadsButton = Globals.get(".downloadButton");
+const reportBugButton = Globals.get(".reportBugButton");
+const newsButton = Globals.get(".newsButton");
+const helpButton = Globals.get(".helpButton");
+const logo = Globals.get(".logo");
 
-const warringText = get(".shutDownWarringText");
+const warringText = Globals.get(".shutDownWarringText");
 
 const documentParent = window.parent.document;
 
-let warringTextFlash = true;
+logo.onclick = (event) => documentParent.location.href = Globals.URL_ROOT;
 
-logo.onclick = (event) => {
-    documentParent.location.href = "https://skitt.glitch.me/";
-}
+downloadsButton.onclick = (event) => documentParent.location.href = `${Globals.URL_ROOT}/downloads`;
 
-downloadsButton.onclick = (event) => {
-    documentParent.location.href = "https://skitt.glitch.me/downloads";
-}
+helpButton.onclick = (event) => documentParent.location.href = `${Globals.URL_ROOT}/helpUsers`;
 
-helpButton.onclick = (event) => {
-    documentParent.location.href = "https://skitt.glitch.me/helpUsers";
-}
+reportBugButton.onclick = (event) => documentParent.location.href = `${Globals.URL_ROOT}/reportBug`;
 
-reportBugButton.onclick = (event) => {
-    documentParent.location.href = "https://skitt.glitch.me/reportBug";
-}
+newsButton.onclick = (event) => documentParent.location.href = `${Globals.URL_ROOT}/newsPage`;
 
-newsButton.onclick = (event) => {
-    documentParent.location.href = "https://skitt.glitch.me/newsPage";
-}
-
-function changeStyleOfElements(){
-  for(let i=2; i<arguments.length; i++){
-    arguments[i].style[arguments[0]] = arguments[1] 
-  }
-}
-
-function updateWarringText() {
-  
-  warringTextFlash = !warringTextFlash;
-  
-  if (warringTextFlash) {
-    changeStyleOfElements("backgroundColor", "orange", warringText)
-    warringText.style.outlineColor = "#ff8c00"
-  }
-  else {
-     changeStyleOfElements("backgroundColor", "red", warringText)
-      warringText.style.outlineColor = "#8B0000"
-  }
-  
-}
-
-
-changeStyleOfElements("backgroundColor", "red", warringText)
-warringText.style.outlineColor = "#8B0000"
-
-setInterval(updateWarringText, 500);
+// handle blinking on the warning text every 500ms
+const warningBlinker = new ElementBlinker(warringText, ["orange", "red"], ["#ff8c00", "#8B0000"], 500);
