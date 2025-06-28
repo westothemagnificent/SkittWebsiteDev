@@ -1,7 +1,7 @@
 // vars
 
-// export const URL_ROOT = "https://skitt.onrender.com";
-export const URL_ROOT = "http://localhost:3000";
+export const URL_ROOT = "https://skitt.onrender.com";
+//export const URL_ROOT = "http://localhost:3000";
 
 // functions
 
