@@ -1,4 +1,1 @@
-
-Water Reactor (Fromly: "Submarine game") DEMO 2 is out, report any bugs found!@announcement@2025-05-15T21:19:00Z
-Skitt webstite will NOT be updated to use C#, an update will still come at some point!@drop@2025-05-14T02:41:00Z
-Submarine game (Now Water Reactor) might have a non demo build by july, this build will most likely have more content than the Sub game beta's.@announcement@3/14/2025
+New website is up! The glitch version will be shutting down july 8th, report any bugs found!@announcement@6/28/2025
