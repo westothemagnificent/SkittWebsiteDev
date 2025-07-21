@@ -32,8 +32,7 @@ function addDownload(version, link, OS){
   }
 }
 
-function downloadURI(uri, name) 
-{
+function downloadURI(uri, name) {
     var link = document.createElement("a");
     link.setAttribute('download', name);
     link.href = uri;
@@ -45,3 +44,4 @@ function downloadURI(uri, name)
 addDownload("Water Reactor DEMO 1", "https://github.com/westothemagnificent/WaterRecatorGamePublicBuilds/releases/download/DEMO/game.zip", "Windows")
 addDownload("Water Reactor DEMO 2", "https://github.com/westothemagnificent/WaterRecatorGamePublicBuilds/releases/download/DEMO2/game.zip", "Windows")
 addDownload("Water Reactor DEMO 3 (Patch for DEMO 2)", "https://github.com/westothemagnificent/WaterRecatorGamePublicBuilds/releases/download/DEMO3/game.zip", "Windows")
+addDownload("Water Reactor DEMO 4", ";https://github.com/westothemagnificent/WaterRecatorGamePublicBuilds/releases/download/DEMO4/game.zip", "Windows")
